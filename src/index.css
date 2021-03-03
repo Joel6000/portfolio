@@ -1,3 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital@1&family=RocknRoll+One&display=swap');
+
+html, body, #root, .App {
+  height: 100%;
+  background-color:mintcream;
+}
+
+h1, h2, h5 {
+  font-family: 'RocknRoll One', sans-serif;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.about-p, .experience-p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.lead {
+  font-family: 'RocknRoll One', sans-serif;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+.description {
+  font-size: 15px;
+  font-style:italic;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+img {
+  box-shadow: 5px 5px 5px lightgrey ;
+  border-radius: 10px;
+}
+
+.a-button {
+  background-color: azure;
+  border: 0.5px solid lightblue;
+  font-family: 'RocknRoll One', sans-serif;
+  text-shadow: 5px 5px 5px lightgrey;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+.navbar-brand {
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 25px;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+.navbar-toggler {
+  box-shadow: 5px 5px 5px lightgrey ;
+}
+
+.nav-link {
+  font-family: 'RocknRoll One', sans-serif;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+.nav-link:hover {
+  font-size: 18px;
+}
+
+.link {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color:#212529;
+  font-family: 'RocknRoll One', sans-serif;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+.link:hover {
+  display: inline-block;
+  text-decoration: none;
+  color:#212529;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  text-shadow: 5px 5px 5px lightgrey;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.experience-jumbo {
+  background-color: azure;
+  border:0.5px solid lightblue;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border-radius: 10px;
+}
+
+.project {
+  position: relative;
+}
+
+.project:hover .project-img {
+  opacity: 0.1;
+}
+.project:hover .project-text {
+  opacity: 1;
+}
+
+.project-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.project-h, .project-p {
+  color:#212529;
+}
+
+.project-h {
+  font-size: 35px;
+}
+
+.project-p {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.form-control {
+  box-shadow: 5px 5px 5px lightgrey ;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
