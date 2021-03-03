@@ -12,7 +12,7 @@ function Portfolio () {
           Feel free to discover my projects!
         </p>
           <div className="project p-0 m-1">
-            <a href="https://github.com/Joel6000/nextq">
+            <a href="https://github.com/Joel6000/nextq" target="_blank">
               <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
               <div className="project-text d-flex flex-column align-items-center justify-content-around">
                 <h5 className="project-h">NEXTQ</h5>
@@ -21,7 +21,7 @@ function Portfolio () {
             </a>
           </div>
           <div className="project p-0 m-1" style={{width:300, height:300}}>
-            <a href="https://zen-khorana-ff9173.netlify.app/">
+            <a href="https://zen-khorana-ff9173.netlify.app/" target="_blank">
               <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
               <div className="project-text d-flex flex-column align-items-center justify-content-around">
                 <h5 className="project-h">NEXTAGRAM</h5>
@@ -30,7 +30,7 @@ function Portfolio () {
             </a>
           </div>
           <div className="project p-0 m-1" style={{width:300, height:300}}>
-            <a href="https://zen-khorana-ff9173.netlify.app/">
+            <a href="https://zen-khorana-ff9173.netlify.app/" target="_blank">
               <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
               <div className="project-text d-flex flex-column align-items-center justify-content-around">
                 <h5 className="project-h">NEXTAGRAM</h5>
