@@ -24,10 +24,10 @@ function NavigationBar () {
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.linkedin.com/in/joel-lim-600">LinkedIn</a>
+              <a className="nav-link" href="https://www.linkedin.com/in/joel-lim-600" target="_blank">LinkedIn</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/Joel6000">GitHub</a>
+              <a className="nav-link" href="https://github.com/Joel6000" target="_blank">GitHub</a>
             </li>
           </ul>
         </div>
