@@ -48,6 +48,11 @@ img {
   box-shadow: 5px 5px 5px lightgrey;
 }
 
+.a-button:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
 .navbar-brand {
   font-family: 'RocknRoll One', sans-serif;
   font-size: 25px;
@@ -65,6 +70,25 @@ img {
 
 .nav-link:hover {
   font-size: 18px;
+}
+
+.ref-link {
+  display: inline-block;
+  text-decoration: none;
+  color:#212529;
+}
+
+.ref-link:hover {
+  display: inline-block;
+  color: #212529;
+  opacity: 0.7;
+  animation: rotate 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .link {
@@ -88,16 +112,16 @@ img {
 
 @keyframes shake {
   0% { transform: rotate(0deg); }
-  10% { transform: rotate(-1deg); }
-  20% { transform: rotate(1deg); }
+  10% { transform: rotate(-2deg); }
+  20% { transform: rotate(2deg); }
   30% { transform: rotate(0deg); }
-  40% { transform: rotate(1deg); }
-  50% { transform: rotate(-1deg); }
+  40% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
   60% { transform: rotate(0deg); }
-  70% { transform: rotate(-1deg); }
-  80% { transform: rotate(1deg); }
+  70% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
   90% { transform: rotate(0deg); }
-  100% { transform: rotate(-1deg); }
+  100% { transform: rotate(-2deg); }
 }
 
 .experience-jumbo {
@@ -116,6 +140,22 @@ img {
 }
 .project:hover .project-text {
   opacity: 1;
+  animation: shake-project 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake-project {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-2deg); }
+  20% { transform: rotate(2deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-2deg); }
 }
 
 .project-text {
