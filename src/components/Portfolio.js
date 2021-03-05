@@ -1,4 +1,5 @@
 import next from "../images/nextagram.png";
+import nextq from "../images/NEXTQ.png";
 
 function Portfolio () {
 
@@ -13,7 +14,7 @@ function Portfolio () {
         </p>
           <div className="project p-0 m-1">
             <a href="https://expo.io/@joel600/projects/nextq" target="_blank">
-              <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
+              <img className="project-img" src={nextq} alt="image" style={{width:300, height:300}}/>
               <div className="project-text d-flex flex-column align-items-center justify-content-around">
                 <h5 className="project-h">NEXTQ</h5>
                 <p className="project-p text-center"> Building a queue system mobile app <br/>using <br/>REACT NATIVE, EXPO &amp; FLASK</p>
