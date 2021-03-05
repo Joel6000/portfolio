@@ -12,7 +12,7 @@ function Portfolio () {
           Feel free to discover my projects!
         </p>
           <div className="project p-0 m-1">
-            <a href="https://github.com/Joel6000/nextq" target="_blank">
+            <a href="https://expo.io/@joel600/projects/nextq" target="_blank">
               <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
               <div className="project-text d-flex flex-column align-items-center justify-content-around">
                 <h5 className="project-h">NEXTQ</h5>
