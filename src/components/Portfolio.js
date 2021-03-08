@@ -30,15 +30,6 @@ function Portfolio () {
               </div>
             </a>
           </div>
-          <div className="project p-0 m-1" style={{width:300, height:300}}>
-            <a href="https://zen-khorana-ff9173.netlify.app/" target="_blank">
-              <img className="project-img" src={next} alt="image" style={{width:300, height:300}}/>
-              <div className="project-text d-flex flex-column align-items-center justify-content-around">
-                <h5 className="project-h">NEXTAGRAM</h5>
-                <p className="project-p text-center"> Building an Instagram Clone <br/>using <br/>REACT and FLASK</p>
-              </div>
-            </a>
-          </div>
         </div>
     </div>
   );
