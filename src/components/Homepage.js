@@ -12,9 +12,7 @@ function Homepage () {
             <br/> 
             Let introduce myself, I am Joel. 
             <br/> 
-            Currently, this website is still under construction but feel free to browse through this website for more detail about me.
-            <br/> 
-            However, it will be update constantly whenever there is any new update. Please stay tuned!
+            Website will be update constantly whenever there is any new update. Please stay tuned!
           </p>
           <div className="d-flex align-items-center justify-content-center">
             <Link to='/about'> 
